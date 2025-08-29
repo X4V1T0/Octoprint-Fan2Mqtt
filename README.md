@@ -25,7 +25,7 @@ Messages are **retained** by default so the last fan value is available to new s
 1. In OctoPrint go to **Settings → Plugin Manager → Get More... → ... from URL**  
 2. Enter: 
     ```
-    https://github.com/X4V1T0/Octoprint-Fan2Mqtt
+    https://github.com/X4V1T0/OctoPrint-Fan2Mqtt/archive/refs/heads/main.zip
     ``` 
 3. Install and restart OctoPrint.
 
