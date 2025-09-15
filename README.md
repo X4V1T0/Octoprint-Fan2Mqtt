@@ -37,10 +37,9 @@ If you need a different topic or non-retained messages, edit the source and rein
 Create an MQTT sensor:
 
 ```yaml
-sensor:
-- platform: mqtt
-  name: "OctoPrint Fan Speed"
-  state_topic: "octoPrint/fan/speed"
-  unit_of_measurement: "%"
-  value_template: "{{ value|int }}"
-  icon: mdi:fan
+mqtt:
+  sensor:
+    - name: "Octoprint Fan Speed"
+      state_topic: "octoPrint/fan/speed"
+      unit_of_measurement: "%"
+      icon: mdi:fan
